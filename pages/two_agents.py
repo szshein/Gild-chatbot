@@ -17,7 +17,7 @@ load_dotenv(override=True)
 
 # https://ai.google.dev/gemini-api/docs/pricing
 # URL configurations
-GEMINI_API_KEY = os.getenv('GEMINI_API_KEY', None)
+GEMINI_API_KEY = os.getenv('AIzaSyAo7I38d-54M4fOWgRLUPuhtnQbCRrVfG0', None)
 OPEN_API_KEY = os.getenv('OPEN_API_KEY', None)
 
 placeholderstr = "Please input your command"
